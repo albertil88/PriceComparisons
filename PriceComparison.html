@@ -1,0 +1,2194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Price Comparison of Victor vs. Continental Engines</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.3/jquery.csv.js"></script>
+<head>
+<body>
+  <h1>Price Comparison of "Power by Victor" Engines vs. Factory Remanufactured Engines</h1>
+  <p>As effective as of July 26, 2017</p>
+  <h2>Continental Engines</h2>
+  
+  <img src="https://www.victor-aviation.com/data1/images/inv_XR520.jpg" class="img" alt="CMI engine">
+  
+  <p>"Power by Victor" Engine Overhaul Series:</p>
+  <ul>
+    <li>Aviator</li>
+    <li>Black Edition<sup>&reg;</sup> V</li>
+    <li>Limited Edition VI<sup>&trade;</sup></li>
+    <li>XR Black Edition<sup>&reg;</sup> VII</li>
+    <li>XR Black Edition<sup>&reg;</sup> 555 Big Bore</li>
+  </ul>
+  
+  <div class="dropdown">
+    <button onclick="clickDrop()" class="dropbtn">Click for CMI Engine Models</button>
+    <div id="myDropdown" class="dropdown-content">
+    	<!--<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">-->
+        <a id="1">Model 0470R66B</a>
+		<a id="2">Model 0470S2B</a>
+		<a id="3">Model 0470U12B</a>
+		<a id="4">Model GTSI0520D24B</a>
+		<a id="5">Model GTSI0520H5B</a>
+		<a id="6">Model GTSI0520L8B</a>
+		<a id="7">Model GTSI0520M2B</a>
+		<a id="8">Model I0240B28B</a>
+		<a id="9">Model I0360CB8B</a>
+		<a id="10">Model I0360DB33B</a>
+		<a id="11">Model I0360ES2B</a>
+		<a id="12">Model I0360GB5B</a>
+		<a id="13">Model I0360HB9B</a>
+		<a id="14">Model I0360JB4B</a>
+		<a id="15">Model I0360KB6B</a>
+		<a id="16">Model I0470L26B</a>
+		<a id="17">Model I0470N20B</a>
+		<a id="18">Model I0470U4B</a>
+		<a id="19">Model I0470V06B</a>
+		<a id="20">Model I0520A38B</a>
+		<a id="21">Model I0520BB51B</a>
+		<a id="22">Model I0520CB9B</a>
+		<a id="23">Model I0520D22B</a>
+		<a id="24">Model I0520E16B</a>
+		<a id="25">Model I0520F7B</a>
+		<a id="26">Model I0520J1B</a>
+		<a id="27">Model I0520K2B</a>
+		<a id="28">Model I0520L7B</a>
+		<a id="29">Model I0520MB1B</a>
+		<a id="30">Model I0550A5B</a>
+		<a id="31">Model I0550B55B</a>
+		<a id="32">Model I0550C66B</a>
+		<a id="33">Model I0550D35B</a>
+		<a id="34">Model I0550E1B</a>
+		<a id="35">Model I0550F33B</a>
+		<a id="36">Model I0550G7B</a>
+		<a id="37">Model I0550L18B</a>
+		<a id="38">Model I0550N46B</a>
+		<a id="39">Model I0550P5B</a>
+		<a id="40">Model I0550R14B</a>
+		<a id="41">Model I0F240B5B</a>
+		<a id="42">Model LTSI0360EB16B</a>
+		<a id="43">Model LTSI0360KB15B</a>
+		<a id="44">Model LTSI0360RB5B</a>
+		<a id="45">Model LTSI0520AE3B</a>
+		<a id="46">Model TSI0360EB7B</a>
+		<a id="47">Model TSI0360FB17B</a>
+		<a id="48">Model TSI0360HB1B</a>
+		<a id="49">Model TSI0360JB1B</a>
+		<a id="50">Model TSI0360KB32B</a>
+		<a id="51">Model TSI0360LB1B</a>
+		<a id="52">Model TSI0360MB2B</a>
+		<a id="53">Model TSI0360RB2B</a>
+		<a id="54">Model TSI0360SB2B</a>
+		<a id="55">Model TSI0520AE3B</a>
+		<a id="56">Model TSI0520AF3B</a>
+		<a id="57">Model TSI0520BB12B</a>
+		<a id="58">Model TSI0520BE2G</a>
+		<a id="59">Model TSI0520C2B</a>
+		<a id="60">Model TSI0520CE1F</a>
+		<a id="61">Model TSI0520EB5B</a>
+		<a id="62">Model TSI0520G5B</a>
+		<a id="63">Model TSI0520H4B</a>
+		<a id="64">Model TSI0520JB13B</a>
+		<a id="65">Model TSI0520KB4B</a>
+		<a id="66">Model TSI0520LB6B</a>
+		<a id="67">Model TSI0520M7B</a>
+		<a id="68">Model TSI0520NB18B</a>
+		<a id="69">Model TSI0520P5B</a>
+		<a id="70">Model TSI0520R9B</a>
+		<a id="71">Model TSI0520T1B</a>
+		<a id="72">Model TSI0520UB19B</a>
+		<a id="73">Model TSI0520VB10F</a>
+		<a id="74">Model TSI0520WB3F</a>
+		<a id="75">Model TSI0550B1B</a>
+		<a id="76">Model TSI0550C14B</a>
+		<a id="77">Model TSI0550E18B</a>
+		<a id="78">Model TSI0550G5B</a>
+		<a id="79">Model TSI0550K1B</a>
+		<a id="80">Model TSI0550N1B</a>
+		<!-- <a href="#firstGraphSet" id="80">Model TSI0550N1B</button> -->
+    </div>
+  </div>
+  
+  <table id="firstGraphSet" style="width: 100%">
+  	<tr>
+  		<th style="width: 60%">
+  			<div id="container">
+				<canvas id="canvas"></canvas>
+  			</div>
+  		</th>
+  		
+  		<th style="width: 40%">
+  			<div id="container">
+				<canvas id="canvas2"></canvas>
+  			</div>
+  		</th>
+  	</tr>
+  	<tr>
+  		<td>
+  			<p style="font-size: 1em">*A percentage based comparison between the price of Victor rebuilt engines vs. CMI rebuilt engines. 
+  			For example, if the price of a Victor rebuilt engine was $10,000 and the price of the CMI rebuilt engine was $9,000,
+  			the percentage difference would be 10%.
+  			</p>
+  		</td>
+  		<td></td>
+  	</tr>
+  </table>
+  
+  <h2>Lycoming Engines</h2>
+  
+  <img src="Close Up Motor.png" alt="lycoming motor" class="img">
+  
+  <p>"Power by Victor" Engine Overhaul Series:</p>
+  <ul>
+    <li>Aviator</li>
+    <li>Black Edition<sup>&reg;</sup> V</li>
+    <li>Limited Edition VI<sup>&trade;</sup></li>
+    <li>XR Black Edition<sup>&reg;</sup> VII</li>
+  </ul>
+  
+  <div class="dropdown">
+    <button onclick="clickDrop2()" class="dropbtn">Click for Lycoming Engine Models</button>
+    <div id="myDropdown2" class="dropdown-content">
+    	<a id="81">Model O-235-C1</a>
+		<a id="82">Model O-235-C1B</a>
+		<a id="83">Model O-235-C2A</a>
+		<a id="84">Model O-235-C2C</a>
+		<a id="85">Model O-235-F2B</a>
+		<a id="86">Model O-235-H2C</a>
+		<a id="87">Model O-235-J2A</a>
+		<a id="88">Model O-235-K2B</a>
+		<a id="89">Model O-235-K2C</a>
+		<a id="90">Model O-235-L2A</a>
+		<a id="91">Model O-235-L2C</a>
+		<a id="92">Model O-235-N2C</a>
+		<a id="93">Model AEIO-320-D1B</a>
+		<a id="94">Model AEIO-320-D2B</a>
+		<a id="95">Model AEIO-320-E1B</a>
+		<a id="96">Model AEIO-320-E2B</a>
+		<a id="97">Model IO-320-B1A</a>
+		<a id="98">Model IO-320-D1B</a>
+		<a id="99">Model IO-320-E1B</a>
+		<a id="100">Model IO-320-E2A</a>
+		<a id="101">Model IO-320-E2B</a>
+		<a id="102">Model LIO-320-B1A</a>
+		<a id="103">Model O-320-A2B</a>
+		<a id="104">Model O-320-A2C</a>
+		<a id="105">Model O-320-A2D</a>
+		<a id="106">Model O-320-A3A</a>
+		<a id="107">Model O-320-A3B</a>
+		<a id="108">Model O-320-B1A</a>
+		<a id="109">Model O-320-B2A</a>
+		<a id="110">Model O-320-B2B</a>
+		<a id="111">Model O-320-B2C</a>
+		<a id="112">Model O-320-B2D</a>
+		<a id="113">Model O-320-B3B</a>
+		<a id="114">Model O-320-D1A</a>
+		<a id="115">Model O-320-D1D</a>
+		<a id="116">Model O-320-D1F</a>
+		<a id="117">Model O-320-D2A</a>
+		<a id="118">Model O-320-D2B</a>
+		<a id="119">Model O-320-D2G</a>
+		<a id="120">Model O-320-D2J</a>
+		<a id="121">Model O-320-D3G </a>
+		<a id="122">Model O-320-E2C</a>
+		<a id="123">Model O-320-E2D</a>
+		<a id="124">Model O-320-E2F</a>
+		<a id="125">Model O-320-E2G</a>
+		<a id="126">Model O-320-E3D</a>
+		<a id="127">Model O-320-H2AD</a>
+		<a id="128">Model AEIO-360-A1A</a>
+		<a id="129">Model AEIO-360-A1B</a>
+		<a id="130">Model AEIO-360-A1B6</a>
+		<a id="131">Model AEIO-360-A1D</a>
+		<a id="132">Model AEIO-360-A1E</a>
+		<a id="133">Model AEIO-360-A2C</a>
+		<a id="134">Model AEIO-360-B1B</a>
+		<a id="135">Model AEIO-360-B1F</a>
+		<a id="136">Model AEIO-360-B1G6</a>
+		<a id="137">Model AEIO-360-B1H</a>
+		<a id="138">Model AEIO-360-B2F</a>
+		<a id="139">Model AEIO-360-B4A</a>
+		<a id="140">Model AEIO-360-H1B</a>
+		<a id="141">Model HIO-360-A1A</a>
+		<a id="142">Model HIO-360-B1A</a>
+		<a id="143">Model HIO-360-C1A</a>
+		<a id="144">Model HIO-360-C1B</a>
+		<a id="145">Model HIO-360-D1A</a>
+		<a id="146">Model HIO-360-E1AD</a>
+		<a id="147">Model HIO-360-E1BD</a>
+		<a id="148">Model HIO-360-F1AD</a>
+		<a id="149">Model HIO-360-G1A</a>
+		<a id="150">Model HO-360-C1A</a>
+		<a id="151">Model IO-360-A1A</a>
+		<a id="152">Model IO-360-A1B</a>
+		<a id="153">Model IO-360-A1B6</a>
+		<a id="154">Model IO-360-A1B6D</a>
+		<a id="155">Model IO-360-A1D</a>
+		<a id="156">Model IO-360-A1D6</a>
+		<a id="157">Model IO-360-A2B</a>
+		<a id="158">Model IO-360-A3B6</a>
+		<a id="159">Model IO-360-A3B6D</a>
+		<a id="160">Model IO-360-B1B</a>
+		<a id="161">Model IO-360-B1E</a>
+		<a id="162">Model IO-360-B1F</a>
+		<a id="163">Model IO-360-B1F6</a>
+		<a id="164">Model IO-360-B1G6</a>
+		<a id="165">Model IO-360-C1C</a>
+		<a id="166">Model IO-360-C1C6</a>
+		<a id="167">Model IO-360-C1D6</a>
+		<a id="168">Model IO-360-C1E6</a>
+		<a id="169">Model IO-360-C1F</a>
+		<a id="170">Model IO-360-C1G6</a>
+		<a id="171">Model IO-360-L2A</a>
+		<a id="172">Model IO-360-M1A</a>
+		<a id="173">Model IO-360-M1B</a>
+		<a id="174">Model LIO-360-C1E6</a>
+		<a id="175">Model LIO-360-M1A</a>
+		<a id="176">Model LO-360-A1G6D</a>
+		<a id="177">Model LO-360-A1H6</a>
+		<a id="178">Model LO-360-E1A6D</a>
+		<a id="179">Model LTO-360-E1A6D</a>
+		<a id="180">Model O-360-A1A</a>
+		<a id="181">Model O-360-A1AD</a>
+		<a id="182">Model O-360-A1D</a>
+		<a id="183">Model O-360-A1F6D</a>
+		<a id="184">Model O-360-A1G6D</a>
+		<a id="185">Model O-360-A1H6</a>
+		<a id="186">Model O-360-A1P</a>
+		<a id="187">Model O-360-A2A</a>
+		<a id="188">Model O-360-A2F</a>
+		<a id="189">Model O-360-A2G</a>
+		<a id="190">Model O-360-A3A</a>
+		<a id="191">Model O-360-A3AD</a>
+		<a id="192">Model O-360-A4A</a>
+		<a id="193">Model O-360-A4G</a>
+		<a id="194">Model O-360-A4J</a>
+		<a id="195">Model O-360-A4K</a>
+		<a id="196">Model O-360-A4M</a>
+		<a id="197">Model O-360-A4N</a>
+		<a id="198">Model O-360-A4P</a>
+		<a id="199">Model O-360-A5AD</a>
+		<a id="200">Model O-360-C1E</a>
+		<a id="201">Model O-360-C1F</a>
+		<a id="202">Model O-360-C1G</a>
+		<a id="203">Model O-360-C2A</a>
+		<a id="204">Model O-360-C2E</a>
+		<a id="205">Model O-360-C4F</a>
+		<a id="206">Model O-360-C4P</a>
+		<a id="207">Model O-360-E1A6D</a>
+		<a id="208">Model O-360-F1A6</a>
+		<a id="209">Model O-360-J2A</a>
+		<a id="210">Model TIO-360-C1A6D</a>
+		<a id="211">Model TO-360-C1A6D</a>
+		<a id="212">Model TO-360-E1A6D</a>
+		<a id="213">Model AEIO-390-A1B6</a>
+		<a id="214">Model IO-390-A1A6</a>
+		<a id="215">Model IO-390-A3A6</a>
+		<a id="216">Model IO-390-A1B6</a>
+		<a id="217">Model AEIO-540-D4A5</a>
+		<a id="218">Model AEIO-540-D4B5</a>
+		<a id="219">Model AEIO-540-D4D5</a>
+		<a id="220">Model AEIO-540-L1B5</a>
+		<a id="221">Model AEIO-540-L1B5D</a>
+		<a id="222">Model AEIO-540-L1D5</a>
+		<a id="223">Model IO-540-AA1A5</a>
+		<a id="224">Model IO-540-AA1B5</a>
+		<a id="225">Model IO-540-AB1A5</a>
+		<a id="226">Model IO-540-AC1A5</a>
+		<a id="227">Model IO-540-AE1A5</a>
+		<a id="228">Model IO-540-C1B5</a>
+		<a id="229">Model IO-540-C4B5</a>
+		<a id="230">Model IO-540-C4D5</a>
+		<a id="231">Model IO-540-C4D5D</a>
+		<a id="232">Model IO-540-D4A5</a>
+		<a id="233">Model IO-540-D4B5</a>
+		<a id="234">Model IO-540-AF1A5</a>
+		<a id="235">Model IO-540-G1D5</a>
+		<a id="236">Model IO-540-J4A5</a>
+		<a id="237">Model IO-540-K1A5</a>
+		<a id="238">Model IO-540-K1A5D</a>
+		<a id="239">Model IO-540-K1B5</a>
+		<a id="240">Model IO-540-K1D5</a>
+		<a id="241">Model IO-540-K1E5</a>
+		<a id="242">Model IO-540-K1F5</a>
+		<a id="243">Model IO-540-K1G5</a>
+		<a id="244">Model IO-540-K1G5D</a>
+		<a id="245">Model IO-540-K1J5</a>
+		<a id="246">Model IO-540-K1J5D</a>
+		<a id="247">Model IO-540-K1K5</a>
+		<a id="248">Model IO-540-K2A5</a>
+		<a id="249">Model IO-540-L1B5D</a>
+		<a id="250">Model IO-540-L1C5</a>
+		<a id="251">Model IO-540-M1A5</a>
+		<a id="252">Model IO-540-M1B5D</a>
+		<a id="253">Model IO-540-M1C5</a>
+		<a id="254">Model IO-540-N1A5</a>
+		<a id="255">Model IO-540-R1A5</a>
+		<a id="256">Model IO-540-S1A5</a>
+		<a id="257">Model IO-540-T4A5D</a>
+		<a id="258">Model IO-540-T4B5</a>
+		<a id="259">Model IO-540-T4B5D</a>
+		<a id="260">Model IO-540-V4A5</a>
+		<a id="261">Model IO-540-W1A5</a>
+		<a id="262">Model IO-540-W1A5D</a>
+		<a id="263">Model LTIO-540-F2BD</a>
+		<a id="264">Model LTIO-540-J2B</a>
+		<a id="265">Model LTIO-540-J2BD</a>
+		<a id="266">Model LTIO-540-U2A</a>
+		<a id="267">Model O-540-A1A5</a>
+		<a id="268">Model O-540-A1B5</a>
+		<a id="269">Model O-540-A4B5</a>
+		<a id="270">Model O-540-A1C5</a>
+		<a id="271">Model O-540-A1D5</a>
+		<a id="272">Model O-540-A4D5</a>
+		<a id="273">Model O-540-A4E5</a>
+		<a id="274">Model O-540-B1A5</a>
+		<a id="275">Model O-540-B2B5</a>
+		<a id="276">Model O-540-B2C5</a>
+		<a id="277">Model O-540-B4B5</a>
+		<a id="278">Model O-540-E4A5</a>
+		<a id="279">Model O-540-E4B5</a>
+		<a id="280">Model O-540-E4C5</a>
+		<a id="281">Model O-540-F1B5</a>
+		<a id="282">Model O-540-G1A5</a>
+		<a id="283">Model O-540-H2A5</a>
+		<a id="284">Model O-540-J1A5D</a>
+		<a id="285">Model O-540-J3A5D</a>
+		<a id="286">Model O-540-L3C5D</a>
+		<a id="287">Model TIO-540-A2B</a>
+		<a id="288">Model TIO-540-A2C</a>
+		<a id="289">Model TIO-540-AA1AD</a>
+		<a id="290">Model TIO-540-AB1AD</a>
+		<a id="291">Model TIO-540-AB1BD</a>
+		<a id="292">Model TIO-540-AE2A</a>
+		<a id="293">Model TIO-540-AF1B</a>
+		<a id="294">Model TIO-540-AG1A</a>
+		<a id="295">Model TIO-540-AH1A</a>
+		<a id="296">Model TIO-540-AJ1A</a>
+		<a id="297">Model TIO-540-AK1A</a>
+		<a id="298">Model TIO-540-C1A</a>
+		<a id="299">Model TIO-540-F2BD</a>
+		<a id="300">Model TIO-540-J2BD</a>
+		<a id="301">Model AEIO-580-B1A</a>
+		<a id="302">Model IO-720-A1B</a>
+		<a id="303">Model IO-720-B1B</a>
+		<a id="304">Model IO-720-D1B</a>
+		<a id="305">Model IO-720-D1C</a>
+    </div>
+  </div>
+  
+  <table id="secondGraphSet" style="width: 100%">
+  	<tr>
+  		<th style="width: 60%">
+  			<div id="container">
+				<canvas id="canvas3"></canvas>
+  			</div>
+  		</th>
+  		
+  		<th style="width: 40%">
+  			<div id="container">
+				<canvas id="canvas4"></canvas>
+  			</div>
+  		</th>
+  	</tr>
+  	<tr>
+  		<td>
+  			<p style="font-size: 1em">*A percentage based comparison between the price of Victor rebuilt engines vs. Lycoming rebuilt engines. 
+  			For example, if the price of a Victor rebuilt engine was $10,000 and the price of the Lycoming rebuilt engine was $9,000,
+  			the percentage difference would be 10%.
+  			</p>
+  		</td>
+  		<td></td>
+  	</tr>
+  </table>
+	
+	<script>
+	
+		var compiledData;
+		var compiledData2;
+		var compiledData3;
+		var compiledData4;
+		initData();
+		function initData() {
+    		$.ajax({
+				type: "GET",
+       			url: "CMIPrices.csv",
+        		dataType: "text",
+        		success: function(data) {
+        			compiledData = $.csv.toArrays(data);
+					//console.log(compiledData);
+        			//console.log("yay");
+        		},
+        		error: function(data) {
+        			//console.log("err");
+        		}
+     		});
+     		$.ajax({
+				type: "GET",
+       			url: "CMIPercentages.csv",
+        		dataType: "text",
+        		success: function(data) {
+        			compiledData2 = $.csv.toArrays(data);
+					//console.log(compiledData2);
+        			//console.log("yay");
+        		},
+        		error: function(data) {
+        			//console.log("err");
+        		}
+     		});
+     		$.ajax({
+				type: "GET",
+       			url: "LycPrices.csv",
+        		dataType: "text",
+        		success: function(data) {
+        			compiledData3 = $.csv.toArrays(data);
+					//console.log(compiledData3);
+        			//console.log("yay");
+        		},
+        		error: function(data) {
+        			//console.log("err");
+        		}
+     		});
+     		$.ajax({
+				type: "GET",
+       			url: "LycPercentages.csv",
+        		dataType: "text",
+        		success: function(data) {
+        			compiledData4 = $.csv.toArrays(data);
+					//console.log(compiledData4);
+        			//console.log("yay");
+        		},
+        		error: function(data) {
+        			//console.log("err");
+        		}
+     		});
+		}
+		
+		window.chartColors = {
+			red: 'rgb(255, 99, 132)',
+			orange: 'rgb(255, 159, 64)',
+			yellow: 'rgb(255, 205, 86)',
+			green: 'rgb(75, 192, 192)',
+			blue: 'rgb(54, 162, 235)',
+			purple: 'rgb(153, 102, 255)',
+			grey: 'rgb(201, 203, 207)',
+			lightBlack: 'rgb(51, 51, 51)',
+			black: 'rgb(0,0,0)'
+		};
+		
+		window.overAndUnder = {
+			under: 'rgb(102, 255, 102)',
+			over: 'rgb(51, 51, 255)'
+		}
+		
+		window.engineColors = {
+			rebuilt: 'rgb(255, 0, 0)',
+			aviator: 'rgb(255, 255, 0)',
+			blackv: 'rgb(51, 51, 51)',
+			limited: 'rgb(0, 51, 204)',
+			xrblack: 'rgb(0,0,0)',
+			bigbore: 'rgb(255, 0, 0)'
+		}
+  	
+    	var TYPES = ["CMI Rebuilt", "Aviator", "Black V", "Limited VI\u2122", "XR Black VII", "Big Bore 555"];
+        var color = Chart.helpers.color;
+        var barChartData = {
+            labels: ["CMI Rebuilt", "Aviator", "Black\u00AE V", "Limited VI\u2122", "XR Black\u00AE VII", "Big Bore 555"],
+            datasets: [{
+                label: 'Model 0470R66B',
+                backgroundColor: [color(window.engineColors.rebuilt).alpha(0.8).rgbString(),
+					color(window.engineColors.aviator).alpha(0.5).rgbString(),
+					color(window.engineColors.blackv).alpha(0.5).rgbString(),
+					color(window.engineColors.limited).alpha(0.5).rgbString(),
+					window.engineColors.xrblack,
+					color(window.engineColors.bigbore).alpha(0.5).rgbString()
+				],
+                borderColor: [color(window.engineColors.rebuilt).alpha(0.8).rgbString(),
+					color(window.engineColors.aviator).alpha(0.5).rgbString(),
+					color(window.engineColors.blackv).alpha(0.5).rgbString(),
+					color(window.engineColors.limited).alpha(0.5).rgbString(),
+					window.engineColors.xrblack,
+					color(window.engineColors.bigbore).alpha(0.5).rgbString()
+				],
+                borderWidth: 1,
+                data: [
+                    35867,
+                    29249,
+                    38871,
+                    44871,
+                    53871,
+                    0
+                ]
+            }]
+
+        };
+        
+        var barChartData2 = {
+            labels: ["Aviator", "Black\u00AE V", "Limited VI\u2122", "XR Black\u00AE VII", "Big Bore 555"],
+            datasets: [{
+                label: 'Model 0470R66B',
+                backgroundColor: [color(window.overAndUnder.under).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString()],
+                borderColor: [color(window.overAndUnder.under).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString()],
+                borderWidth: 1,
+                data: [
+                    -18,
+                    8,
+                    25,
+                    50,
+                    0
+                ]
+            }]
+
+        };
+        
+        var barChartData3 = {
+            labels: ["Lyc Rebuilt","Aviator", "Black\u00AE V", "Limited VI\u2122", "XR Black\u00AE VII"],
+            datasets: [{
+                label: 'Model AEIO-320-D1B',
+                backgroundColor: [color(window.engineColors.rebuilt).alpha(0.8).rgbString(),
+					color(window.engineColors.aviator).alpha(0.5).rgbString(),
+					color(window.engineColors.blackv).alpha(0.5).rgbString(),
+					color(window.engineColors.limited).alpha(0.5).rgbString(),
+					window.engineColors.xrblack,
+				],
+                borderColor: [color(window.engineColors.rebuilt).alpha(0.8).rgbString(),
+					color(window.engineColors.aviator).alpha(0.5).rgbString(),
+					color(window.engineColors.blackv).alpha(0.5).rgbString(),
+					color(window.engineColors.limited).alpha(0.5).rgbString(),
+					window.engineColors.xrblack,
+				],
+                borderWidth: 1,
+                data: [
+                    40495,
+                    0,
+                    34285,
+                    39585,
+                    46135
+                ]
+            }]
+
+        };
+        
+        var barChartData4 = {
+            labels: ["Aviator", "Black V\u00AE", "Limited VI\u2122", "XR Black\u00AE VII"],
+            datasets: [{
+                label: 'Model AEIO-320-D1B',
+                backgroundColor: [color(window.overAndUnder.over).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.under).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.under).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString()],
+                borderColor: [color(window.overAndUnder.over).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.under).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.under).alpha(0.5).rgbString(),
+                	color(window.overAndUnder.over).alpha(0.5).rgbString()],
+                borderWidth: 1,
+                data: [
+                    0,
+                    -15,
+                    -2,
+                    14
+                ]
+            }]
+
+        };
+
+        window.onload = function() {
+            var ctx = document.getElementById("canvas").getContext("2d");
+            window.myBar = new Chart(ctx, {
+                type: 'bar',
+                data: barChartData,
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'bottom',
+                        onClick: function(event, legendItem) {},
+                        labels: {
+                        	fontSize: 16,
+                        	boxWidth: 0
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Price Comparison of Victor vs. CMI Rebuilt',
+                        fontSize: 20
+                    },
+                    scales: {
+                    	yAxes: [{
+                    		ticks: {
+                    			beginAtZero: true,
+                    			fontSize: 10,
+                    			stepSize: 3000,
+                    			userCallback: function(value, index, values) {
+                    				value = value.toString();
+                					value = value.split(/(?=(?:...)*$)/);
+                					value = value.join(',');
+                    				return '$' + value;
+                    			}
+                    		}
+                    	}],
+                    	xAxes: [{
+                    		ticks: {
+                    			fontSize: 19
+                    		}
+                    	}]
+                    },
+                    tooltips: {
+                    	bodyFontSize: 17,
+                    	callbacks: {
+                    		label: function(tooltipItems, data) {
+                    			var converted = tooltipItems.yLabel.toString();
+                    			converted = converted.split(/(?=(?:...)*$)/);
+                				converted = converted.join(',');
+                    			return '$' + converted;
+                    		}
+                    	}
+                    }
+                },
+            });
+            
+            var ctx2 = document.getElementById("canvas2").getContext("2d");
+            window.myBar2 = new Chart(ctx2, {
+                type: 'bar',
+                data: barChartData2,
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'bottom',
+                        onClick: function(event, legendItem) {},
+                        labels: {
+                        	fontSize: 15,
+                        	boxWidth: 0
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Percentage Difference for Victor vs. CMI Rebuilt*',
+                        fontSize: 17
+                    },
+                    scales: {
+                    	yAxes: [{
+                    		ticks: {
+                    			userCallback: function(value, index, values) {
+                    				return value + '%';
+                    			}
+                    		}
+                    	}],
+                    	xAxes: [{
+                    		ticks: {
+                    			fontSize: 15
+                    		}
+                    	}]
+                    },
+                    tooltips: {
+                    	bodyFontSize: 17,
+                 		callbacks: {
+                 			label: function(tooltipItems, data) {
+                 				return tooltipItems.yLabel.toString() + '%';
+                 			}
+                 		}   
+                    }
+                }
+            });
+        
+			var ctx3 = document.getElementById("canvas3").getContext("2d");
+			window.myBar3 = new Chart(ctx3, {
+				type: 'bar',
+				data: barChartData3,
+				options: {
+					responsive: true,
+					legend: {
+						position: 'bottom',
+						onClick: function(event, legendItem) {},
+						labels: {
+                        	fontSize: 16,
+                        	boxWidth: 0
+                        }
+					},
+					title: {
+						display: true,
+						text: 'Price Comparison of Victor vs. Lycoming Rebuilt',
+						fontSize: 20
+					},
+					scales: {
+						yAxes: [{
+							ticks: {
+								beginAtZero: true,
+								fontSize: 10,
+								stepSize: 3000,
+								userCallback: function(value, index, values) {
+									value = value.toString();
+									value = value.split(/(?=(?:...)*$)/);
+									value = value.join(',');
+									return '$' + value;
+								}
+							}
+						}],
+						xAxes: [{
+                    		ticks: {
+                    			fontSize: 20
+                    		}
+                    	}]
+					},
+					tooltips: {
+						bodyFontSize: 17,
+						callbacks: {
+							label: function(tooltipItems, data) {
+								var converted = tooltipItems.yLabel.toString();
+								converted = converted.split(/(?=(?:...)*$)/);
+								converted = converted.join(',');
+								return '$' + converted;
+							}
+						}
+					}
+				},
+			});
+			
+			var ctx4 = document.getElementById("canvas4").getContext("2d");
+            window.myBar4 = new Chart(ctx4, {
+                type: 'bar',
+                data: barChartData4,
+                /*config = {
+					legend: {
+						onClick: function(event, legendItem) {}
+					}
+				},*/
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'bottom',
+                        onClick: function(event, legendItem) {},
+                        labels: {
+                        	fontSize: 15,
+                        	boxWidth: 0
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Percentage Difference for Victor vs. Lycoming Rebuilt*',
+                        fontSize: 17
+                    },
+                    scales: {
+                    	yAxes: [{
+                    		ticks: {
+                    			userCallback: function(value, index, values) {
+                    				return value + '%';
+                    			}
+                    		}
+                    	}],
+                    	xAxes: [{
+                    		ticks: {
+                    			fontSize: 17
+                    		}
+                    	}]
+                    },
+                    tooltips: {
+                    	bodyFontSize: 17,
+                 		callbacks: {
+                 			label: function(tooltipItems, data) {
+                 				return tooltipItems.yLabel.toString() + '%';
+                 			}
+                 		}   
+                    }
+                }
+            });
+			
+		};
+		
+		
+
+		var current = 0;
+		var current2 = 0;
+        /*
+        document.getElementById('1').addEventListener('click', function() {
+            updateGraph('Model 0470R66B', compiledData[1].slice(1), compiledData2[1].slice(1));
+        });
+        
+        document.getElementById('2').addEventListener('click', function() {
+            updateGraph('Model 0470S2B', compiledData[2].slice(1), compiledData2[2].slice(1));
+        });
+        
+        document.getElementById('3').addEventListener('click', function() {
+            updateGraph('Model 0470U12B', compiledData[3].slice(1), compiledData2[3].slice(1));
+        });
+        
+		document.getElementById('1').addEventListener('click', function() {
+			updateGraph('Model 0470R66B', compiledData[1].slice(1), compiledData2[1].slice(1));
+		});*/
+		
+		
+		document.getElementById('1').addEventListener('click', function() {
+		updateGraph('Model 0470R66B', compiledData[1].slice(1), compiledData2[1].slice(1));
+		});
+		
+		document.getElementById('2').addEventListener('click', function() {
+		updateGraph('Model 0470S2B', compiledData[2].slice(1), compiledData2[2].slice(1));
+		});
+		
+		document.getElementById('3').addEventListener('click', function() {
+		updateGraph('Model 0470U12B', compiledData[3].slice(1), compiledData2[3].slice(1));
+		});
+		
+		document.getElementById('4').addEventListener('click', function() {
+		updateGraph('Model GTSI0520D24B', compiledData[4].slice(1), compiledData2[4].slice(1));
+		});
+		
+		document.getElementById('5').addEventListener('click', function() {
+		updateGraph('Model GTSI0520H5B', compiledData[5].slice(1), compiledData2[5].slice(1));
+		});
+		
+		document.getElementById('6').addEventListener('click', function() {
+		updateGraph('Model GTSI0520L8B', compiledData[6].slice(1), compiledData2[6].slice(1));
+		});
+		
+		document.getElementById('7').addEventListener('click', function() {
+		updateGraph('Model GTSI0520M2B', compiledData[7].slice(1), compiledData2[7].slice(1));
+		});
+		
+		document.getElementById('8').addEventListener('click', function() {
+		updateGraph('Model I0240B28B', compiledData[8].slice(1), compiledData2[8].slice(1));
+		});
+		
+		document.getElementById('9').addEventListener('click', function() {
+		updateGraph('Model I0360CB8B', compiledData[9].slice(1), compiledData2[9].slice(1));
+		});
+		
+		document.getElementById('10').addEventListener('click', function() {
+		updateGraph('Model I0360DB33B', compiledData[10].slice(1), compiledData2[10].slice(1));
+		});
+		
+		document.getElementById('11').addEventListener('click', function() {
+		updateGraph('Model I0360ES2B', compiledData[11].slice(1), compiledData2[11].slice(1));
+		});
+		
+		document.getElementById('12').addEventListener('click', function() {
+		updateGraph('Model I0360GB5B', compiledData[12].slice(1), compiledData2[12].slice(1));
+		});
+		
+		document.getElementById('13').addEventListener('click', function() {
+		updateGraph('Model I0360HB9B', compiledData[13].slice(1), compiledData2[13].slice(1));
+		});
+		
+		document.getElementById('14').addEventListener('click', function() {
+		updateGraph('Model I0360JB4B', compiledData[14].slice(1), compiledData2[14].slice(1));
+		});
+		
+		document.getElementById('15').addEventListener('click', function() {
+		updateGraph('Model I0360KB6B', compiledData[15].slice(1), compiledData2[15].slice(1));
+		});
+		
+		document.getElementById('16').addEventListener('click', function() {
+		updateGraph('Model I0470L26B', compiledData[16].slice(1), compiledData2[16].slice(1));
+		});
+		
+		document.getElementById('17').addEventListener('click', function() {
+		updateGraph('Model I0470N20B', compiledData[17].slice(1), compiledData2[17].slice(1));
+		});
+		
+		document.getElementById('18').addEventListener('click', function() {
+		updateGraph('Model I0470U4B', compiledData[18].slice(1), compiledData2[18].slice(1));
+		});
+		
+		document.getElementById('19').addEventListener('click', function() {
+		updateGraph('Model I0470V06B', compiledData[19].slice(1), compiledData2[19].slice(1));
+		});
+		
+		document.getElementById('20').addEventListener('click', function() {
+		updateGraph('Model I0520A38B', compiledData[20].slice(1), compiledData2[20].slice(1));
+		});
+		
+		document.getElementById('21').addEventListener('click', function() {
+		updateGraph('Model I0520BB51B', compiledData[21].slice(1), compiledData2[21].slice(1));
+		});
+		
+		document.getElementById('22').addEventListener('click', function() {
+		updateGraph('Model I0520CB9B', compiledData[22].slice(1), compiledData2[22].slice(1));
+		});
+		
+		document.getElementById('23').addEventListener('click', function() {
+		updateGraph('Model I0520D22B', compiledData[23].slice(1), compiledData2[23].slice(1));
+		});
+		
+		document.getElementById('24').addEventListener('click', function() {
+		updateGraph('Model I0520E16B', compiledData[24].slice(1), compiledData2[24].slice(1));
+		});
+		
+		document.getElementById('25').addEventListener('click', function() {
+		updateGraph('Model I0520F7B', compiledData[25].slice(1), compiledData2[25].slice(1));
+		});
+		
+		document.getElementById('26').addEventListener('click', function() {
+		updateGraph('Model I0520J1B', compiledData[26].slice(1), compiledData2[26].slice(1));
+		});
+		
+		document.getElementById('27').addEventListener('click', function() {
+		updateGraph('Model I0520K2B', compiledData[27].slice(1), compiledData2[27].slice(1));
+		});
+		
+		document.getElementById('28').addEventListener('click', function() {
+		updateGraph('Model I0520L7B', compiledData[28].slice(1), compiledData2[28].slice(1));
+		});
+		
+		document.getElementById('29').addEventListener('click', function() {
+		updateGraph('Model I0520MB1B', compiledData[29].slice(1), compiledData2[29].slice(1));
+		});
+		
+		document.getElementById('30').addEventListener('click', function() {
+		updateGraph('Model I0550A5B', compiledData[30].slice(1), compiledData2[30].slice(1));
+		});
+		
+		document.getElementById('31').addEventListener('click', function() {
+		updateGraph('Model I0550B55B', compiledData[31].slice(1), compiledData2[31].slice(1));
+		});
+		
+		document.getElementById('32').addEventListener('click', function() {
+		updateGraph('Model I0550C66B', compiledData[32].slice(1), compiledData2[32].slice(1));
+		});
+		
+		document.getElementById('33').addEventListener('click', function() {
+		updateGraph('Model I0550D35B', compiledData[33].slice(1), compiledData2[33].slice(1));
+		});
+		
+		document.getElementById('34').addEventListener('click', function() {
+		updateGraph('Model I0550E1B', compiledData[34].slice(1), compiledData2[34].slice(1));
+		});
+		
+		document.getElementById('35').addEventListener('click', function() {
+		updateGraph('Model I0550F33B', compiledData[35].slice(1), compiledData2[35].slice(1));
+		});
+		
+		document.getElementById('36').addEventListener('click', function() {
+		updateGraph('Model I0550G7B', compiledData[36].slice(1), compiledData2[36].slice(1));
+		});
+		
+		document.getElementById('37').addEventListener('click', function() {
+		updateGraph('Model I0550L18B', compiledData[37].slice(1), compiledData2[37].slice(1));
+		});
+		
+		document.getElementById('38').addEventListener('click', function() {
+		updateGraph('Model I0550N46B', compiledData[38].slice(1), compiledData2[38].slice(1));
+		});
+		
+		document.getElementById('39').addEventListener('click', function() {
+		updateGraph('Model I0550P5B', compiledData[39].slice(1), compiledData2[39].slice(1));
+		});
+		
+		document.getElementById('40').addEventListener('click', function() {
+		updateGraph('Model I0550R14B', compiledData[40].slice(1), compiledData2[40].slice(1));
+		});
+		
+		document.getElementById('41').addEventListener('click', function() {
+		updateGraph('Model I0F240B5B', compiledData[41].slice(1), compiledData2[41].slice(1));
+		});
+		
+		document.getElementById('42').addEventListener('click', function() {
+		updateGraph('Model LTSI0360EB16B', compiledData[42].slice(1), compiledData2[42].slice(1));
+		});
+		
+		document.getElementById('43').addEventListener('click', function() {
+		updateGraph('Model LTSI0360KB15B', compiledData[43].slice(1), compiledData2[43].slice(1));
+		});
+		
+		document.getElementById('44').addEventListener('click', function() {
+		updateGraph('Model LTSI0360RB5B', compiledData[44].slice(1), compiledData2[44].slice(1));
+		});
+		
+		document.getElementById('45').addEventListener('click', function() {
+		updateGraph('Model LTSI0520AE3B', compiledData[45].slice(1), compiledData2[45].slice(1));
+		});
+		
+		document.getElementById('46').addEventListener('click', function() {
+		updateGraph('Model TSI0360EB7B', compiledData[46].slice(1), compiledData2[46].slice(1));
+		});
+		
+		document.getElementById('47').addEventListener('click', function() {
+		updateGraph('Model TSI0360FB17B', compiledData[47].slice(1), compiledData2[47].slice(1));
+		});
+		
+		document.getElementById('48').addEventListener('click', function() {
+		updateGraph('Model TSI0360HB1B', compiledData[48].slice(1), compiledData2[48].slice(1));
+		});
+		
+		document.getElementById('49').addEventListener('click', function() {
+		updateGraph('Model TSI0360JB1B', compiledData[49].slice(1), compiledData2[49].slice(1));
+		});
+		
+		document.getElementById('50').addEventListener('click', function() {
+		updateGraph('Model TSI0360KB32B', compiledData[50].slice(1), compiledData2[50].slice(1));
+		});
+		
+		document.getElementById('51').addEventListener('click', function() {
+		updateGraph('Model TSI0360LB1B', compiledData[51].slice(1), compiledData2[51].slice(1));
+		});
+		
+		document.getElementById('52').addEventListener('click', function() {
+		updateGraph('Model TSI0360MB2B', compiledData[52].slice(1), compiledData2[52].slice(1));
+		});
+		
+		document.getElementById('53').addEventListener('click', function() {
+		updateGraph('Model TSI0360RB2B', compiledData[53].slice(1), compiledData2[53].slice(1));
+		});
+		
+		document.getElementById('54').addEventListener('click', function() {
+		updateGraph('Model TSI0360SB2B', compiledData[54].slice(1), compiledData2[54].slice(1));
+		});
+		
+		document.getElementById('55').addEventListener('click', function() {
+		updateGraph('Model TSI0520AE3B', compiledData[55].slice(1), compiledData2[55].slice(1));
+		});
+		
+		document.getElementById('56').addEventListener('click', function() {
+		updateGraph('Model TSI0520AF3B', compiledData[56].slice(1), compiledData2[56].slice(1));
+		});
+		
+		document.getElementById('57').addEventListener('click', function() {
+		updateGraph('Model TSI0520BB12B', compiledData[57].slice(1), compiledData2[57].slice(1));
+		});
+		
+		document.getElementById('58').addEventListener('click', function() {
+		updateGraph('Model TSI0520BE2G', compiledData[58].slice(1), compiledData2[58].slice(1));
+		});
+		
+		document.getElementById('59').addEventListener('click', function() {
+		updateGraph('Model TSI0520C2B', compiledData[59].slice(1), compiledData2[59].slice(1));
+		});
+		
+		document.getElementById('60').addEventListener('click', function() {
+		updateGraph('Model TSI0520CE1F', compiledData[60].slice(1), compiledData2[60].slice(1));
+		});
+		
+		document.getElementById('61').addEventListener('click', function() {
+		updateGraph('Model TSI0520EB5B', compiledData[61].slice(1), compiledData2[61].slice(1));
+		});
+		
+		document.getElementById('62').addEventListener('click', function() {
+		updateGraph('Model TSI0520G5B', compiledData[62].slice(1), compiledData2[62].slice(1));
+		});
+		
+		document.getElementById('63').addEventListener('click', function() {
+		updateGraph('Model TSI0520H4B', compiledData[63].slice(1), compiledData2[63].slice(1));
+		});
+		
+		document.getElementById('64').addEventListener('click', function() {
+		updateGraph('Model TSI0520JB13B', compiledData[64].slice(1), compiledData2[64].slice(1));
+		});
+		
+		document.getElementById('65').addEventListener('click', function() {
+		updateGraph('Model TSI0520KB4B', compiledData[65].slice(1), compiledData2[65].slice(1));
+		});
+		
+		document.getElementById('66').addEventListener('click', function() {
+		updateGraph('Model TSI0520LB6B', compiledData[66].slice(1), compiledData2[66].slice(1));
+		});
+		
+		document.getElementById('67').addEventListener('click', function() {
+		updateGraph('Model TSI0520M7B', compiledData[67].slice(1), compiledData2[67].slice(1));
+		});
+		
+		document.getElementById('68').addEventListener('click', function() {
+		updateGraph('Model TSI0520NB18B', compiledData[68].slice(1), compiledData2[68].slice(1));
+		});
+		
+		document.getElementById('69').addEventListener('click', function() {
+		updateGraph('Model TSI0520P5B', compiledData[69].slice(1), compiledData2[69].slice(1));
+		});
+		
+		document.getElementById('70').addEventListener('click', function() {
+		updateGraph('Model TSI0520R9B', compiledData[70].slice(1), compiledData2[70].slice(1));
+		});
+		
+		document.getElementById('71').addEventListener('click', function() {
+		updateGraph('Model TSI0520T1B', compiledData[71].slice(1), compiledData2[71].slice(1));
+		});
+		
+		document.getElementById('72').addEventListener('click', function() {
+		updateGraph('Model TSI0520UB19B', compiledData[72].slice(1), compiledData2[72].slice(1));
+		});
+		
+		document.getElementById('73').addEventListener('click', function() {
+		updateGraph('Model TSI0520VB10F', compiledData[73].slice(1), compiledData2[73].slice(1));
+		});
+		
+		document.getElementById('74').addEventListener('click', function() {
+		updateGraph('Model TSI0520WB3F', compiledData[74].slice(1), compiledData2[74].slice(1));
+		});
+		
+		document.getElementById('75').addEventListener('click', function() {
+		updateGraph('Model TSI0550B1B', compiledData[75].slice(1), compiledData2[75].slice(1));
+		});
+		
+		document.getElementById('76').addEventListener('click', function() {
+		updateGraph('Model TSI0550C14B', compiledData[76].slice(1), compiledData2[76].slice(1));
+		});
+		
+		document.getElementById('77').addEventListener('click', function() {
+		updateGraph('Model TSI0550E18B', compiledData[77].slice(1), compiledData2[77].slice(1));
+		});
+		
+		document.getElementById('78').addEventListener('click', function() {
+		updateGraph('Model TSI0550G5B', compiledData[78].slice(1), compiledData2[78].slice(1));
+		});
+		
+		document.getElementById('79').addEventListener('click', function() {
+		updateGraph('Model TSI0550K1B', compiledData[79].slice(1), compiledData2[79].slice(1));
+		});
+		
+		document.getElementById('80').addEventListener('click', function() {
+		updateGraph('Model TSI0550N1B', compiledData[80].slice(1), compiledData2[80].slice(1));
+		});
+		
+		document.getElementById('81').addEventListener('click', function() {
+		updateGraph2('Model O-235-C1', compiledData3[1].slice(1), compiledData4[1].slice(1));
+		});
+		
+		document.getElementById('82').addEventListener('click', function() {
+		updateGraph2('Model O-235-C1B', compiledData3[2].slice(1), compiledData4[2].slice(1));
+		});
+		
+		document.getElementById('83').addEventListener('click', function() {
+		updateGraph2('Model O-235-C2A', compiledData3[3].slice(1), compiledData4[3].slice(1));
+		});
+		
+		document.getElementById('84').addEventListener('click', function() {
+		updateGraph2('Model O-235-C2C', compiledData3[4].slice(1), compiledData4[4].slice(1));
+		});
+		
+		document.getElementById('85').addEventListener('click', function() {
+		updateGraph2('Model O-235-F2B', compiledData3[5].slice(1), compiledData4[5].slice(1));
+		});
+		
+		document.getElementById('86').addEventListener('click', function() {
+		updateGraph2('Model O-235-H2C', compiledData3[6].slice(1), compiledData4[6].slice(1));
+		});
+		
+		document.getElementById('87').addEventListener('click', function() {
+		updateGraph2('Model O-235-J2A', compiledData3[7].slice(1), compiledData4[7].slice(1));
+		});
+		
+		document.getElementById('88').addEventListener('click', function() {
+		updateGraph2('Model O-235-K2B', compiledData3[8].slice(1), compiledData4[8].slice(1));
+		});
+		
+		document.getElementById('89').addEventListener('click', function() {
+		updateGraph2('Model O-235-K2C', compiledData3[9].slice(1), compiledData4[9].slice(1));
+		});
+		
+		document.getElementById('90').addEventListener('click', function() {
+		updateGraph2('Model O-235-L2A', compiledData3[10].slice(1), compiledData4[10].slice(1));
+		});
+		
+		document.getElementById('91').addEventListener('click', function() {
+		updateGraph2('Model O-235-L2C', compiledData3[11].slice(1), compiledData4[11].slice(1));
+		});
+		
+		document.getElementById('92').addEventListener('click', function() {
+		updateGraph2('Model O-235-N2C', compiledData3[12].slice(1), compiledData4[12].slice(1));
+		});
+		
+		document.getElementById('93').addEventListener('click', function() {
+		updateGraph2('Model AEIO-320-D1B', compiledData3[13].slice(1), compiledData4[13].slice(1));
+		});
+		
+		document.getElementById('94').addEventListener('click', function() {
+		updateGraph2('Model AEIO-320-D2B', compiledData3[14].slice(1), compiledData4[14].slice(1));
+		});
+		
+		document.getElementById('95').addEventListener('click', function() {
+		updateGraph2('Model AEIO-320-E1B', compiledData3[15].slice(1), compiledData4[15].slice(1));
+		});
+		
+		document.getElementById('96').addEventListener('click', function() {
+		updateGraph2('Model AEIO-320-E2B', compiledData3[16].slice(1), compiledData4[16].slice(1));
+		});
+		
+		document.getElementById('97').addEventListener('click', function() {
+		updateGraph2('Model IO-320-B1A', compiledData3[17].slice(1), compiledData4[17].slice(1));
+		});
+		
+		document.getElementById('98').addEventListener('click', function() {
+		updateGraph2('Model IO-320-D1B', compiledData3[18].slice(1), compiledData4[18].slice(1));
+		});
+		
+		document.getElementById('99').addEventListener('click', function() {
+		updateGraph2('Model IO-320-E1B', compiledData3[19].slice(1), compiledData4[19].slice(1));
+		});
+		
+		document.getElementById('100').addEventListener('click', function() {
+		updateGraph2('Model IO-320-E2A', compiledData3[20].slice(1), compiledData4[20].slice(1));
+		});
+		
+		document.getElementById('101').addEventListener('click', function() {
+		updateGraph2('Model IO-320-E2B', compiledData3[21].slice(1), compiledData4[21].slice(1));
+		});
+		
+		document.getElementById('102').addEventListener('click', function() {
+		updateGraph2('Model LIO-320-B1A', compiledData3[22].slice(1), compiledData4[22].slice(1));
+		});
+		
+		document.getElementById('103').addEventListener('click', function() {
+		updateGraph2('Model O-320-A2B', compiledData3[23].slice(1), compiledData4[23].slice(1));
+		});
+		
+		document.getElementById('104').addEventListener('click', function() {
+		updateGraph2('Model O-320-A2C', compiledData3[24].slice(1), compiledData4[24].slice(1));
+		});
+		
+		document.getElementById('105').addEventListener('click', function() {
+		updateGraph2('Model O-320-A2D', compiledData3[25].slice(1), compiledData4[25].slice(1));
+		});
+		
+		document.getElementById('106').addEventListener('click', function() {
+		updateGraph2('Model O-320-A3A', compiledData3[26].slice(1), compiledData4[26].slice(1));
+		});
+		
+		document.getElementById('107').addEventListener('click', function() {
+		updateGraph2('Model O-320-A3B', compiledData3[27].slice(1), compiledData4[27].slice(1));
+		});
+		
+		document.getElementById('108').addEventListener('click', function() {
+		updateGraph2('Model O-320-B1A', compiledData3[28].slice(1), compiledData4[28].slice(1));
+		});
+		
+		document.getElementById('109').addEventListener('click', function() {
+		updateGraph2('Model O-320-B2A', compiledData3[29].slice(1), compiledData4[29].slice(1));
+		});
+		
+		document.getElementById('110').addEventListener('click', function() {
+		updateGraph2('Model O-320-B2B', compiledData3[30].slice(1), compiledData4[30].slice(1));
+		});
+		
+		document.getElementById('111').addEventListener('click', function() {
+		updateGraph2('Model O-320-B2C', compiledData3[31].slice(1), compiledData4[31].slice(1));
+		});
+		
+		document.getElementById('112').addEventListener('click', function() {
+		updateGraph2('Model O-320-B2D', compiledData3[32].slice(1), compiledData4[32].slice(1));
+		});
+		
+		document.getElementById('113').addEventListener('click', function() {
+		updateGraph2('Model O-320-B3B', compiledData3[33].slice(1), compiledData4[33].slice(1));
+		});
+		
+		document.getElementById('114').addEventListener('click', function() {
+		updateGraph2('Model O-320-D1A', compiledData3[34].slice(1), compiledData4[34].slice(1));
+		});
+		
+		document.getElementById('115').addEventListener('click', function() {
+		updateGraph2('Model O-320-D1D', compiledData3[35].slice(1), compiledData4[35].slice(1));
+		});
+		
+		document.getElementById('116').addEventListener('click', function() {
+		updateGraph2('Model O-320-D1F', compiledData3[36].slice(1), compiledData4[36].slice(1));
+		});
+		
+		document.getElementById('117').addEventListener('click', function() {
+		updateGraph2('Model O-320-D2A', compiledData3[37].slice(1), compiledData4[37].slice(1));
+		});
+		
+		document.getElementById('118').addEventListener('click', function() {
+		updateGraph2('Model O-320-D2B', compiledData3[38].slice(1), compiledData4[38].slice(1));
+		});
+		
+		document.getElementById('119').addEventListener('click', function() {
+		updateGraph2('Model O-320-D2G', compiledData3[39].slice(1), compiledData4[39].slice(1));
+		});
+		
+		document.getElementById('120').addEventListener('click', function() {
+		updateGraph2('Model O-320-D2J', compiledData3[40].slice(1), compiledData4[40].slice(1));
+		});
+		
+		document.getElementById('121').addEventListener('click', function() {
+		updateGraph2('Model O-320-D3G ', compiledData3[41].slice(1), compiledData4[41].slice(1));
+		});
+		
+		document.getElementById('122').addEventListener('click', function() {
+		updateGraph2('Model O-320-E2C', compiledData3[42].slice(1), compiledData4[42].slice(1));
+		});
+		
+		document.getElementById('123').addEventListener('click', function() {
+		updateGraph2('Model O-320-E2D', compiledData3[43].slice(1), compiledData4[43].slice(1));
+		});
+		
+		document.getElementById('124').addEventListener('click', function() {
+		updateGraph2('Model O-320-E2F', compiledData3[44].slice(1), compiledData4[44].slice(1));
+		});
+		
+		document.getElementById('125').addEventListener('click', function() {
+		updateGraph2('Model O-320-E2G', compiledData3[45].slice(1), compiledData4[45].slice(1));
+		});
+		
+		document.getElementById('126').addEventListener('click', function() {
+		updateGraph2('Model O-320-E3D', compiledData3[46].slice(1), compiledData4[46].slice(1));
+		});
+		
+		document.getElementById('127').addEventListener('click', function() {
+		updateGraph2('Model O-320-H2AD', compiledData3[47].slice(1), compiledData4[47].slice(1));
+		});
+		
+		document.getElementById('128').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-A1A', compiledData3[48].slice(1), compiledData4[48].slice(1));
+		});
+		
+		document.getElementById('129').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-A1B', compiledData3[49].slice(1), compiledData4[49].slice(1));
+		});
+		
+		document.getElementById('130').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-A1B6', compiledData3[50].slice(1), compiledData4[50].slice(1));
+		});
+		
+		document.getElementById('131').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-A1D', compiledData3[51].slice(1), compiledData4[51].slice(1));
+		});
+		
+		document.getElementById('132').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-A1E', compiledData3[52].slice(1), compiledData4[52].slice(1));
+		});
+		
+		document.getElementById('133').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-A2C', compiledData3[53].slice(1), compiledData4[53].slice(1));
+		});
+		
+		document.getElementById('134').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-B1B', compiledData3[54].slice(1), compiledData4[54].slice(1));
+		});
+		
+		document.getElementById('135').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-B1F', compiledData3[55].slice(1), compiledData4[55].slice(1));
+		});
+		
+		document.getElementById('136').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-B1G6', compiledData3[56].slice(1), compiledData4[56].slice(1));
+		});
+		
+		document.getElementById('137').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-B1H', compiledData3[57].slice(1), compiledData4[57].slice(1));
+		});
+		
+		document.getElementById('138').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-B2F', compiledData3[58].slice(1), compiledData4[58].slice(1));
+		});
+		
+		document.getElementById('139').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-B4A', compiledData3[59].slice(1), compiledData4[59].slice(1));
+		});
+		
+		document.getElementById('140').addEventListener('click', function() {
+		updateGraph2('Model AEIO-360-H1B', compiledData3[60].slice(1), compiledData4[60].slice(1));
+		});
+		
+		document.getElementById('141').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-A1A', compiledData3[61].slice(1), compiledData4[61].slice(1));
+		});
+		
+		document.getElementById('142').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-B1A', compiledData3[62].slice(1), compiledData4[62].slice(1));
+		});
+		
+		document.getElementById('143').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-C1A', compiledData3[63].slice(1), compiledData4[63].slice(1));
+		});
+		
+		document.getElementById('144').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-C1B', compiledData3[64].slice(1), compiledData4[64].slice(1));
+		});
+		
+		document.getElementById('145').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-D1A', compiledData3[65].slice(1), compiledData4[65].slice(1));
+		});
+		
+		document.getElementById('146').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-E1AD', compiledData3[66].slice(1), compiledData4[66].slice(1));
+		});
+		
+		document.getElementById('147').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-E1BD', compiledData3[67].slice(1), compiledData4[67].slice(1));
+		});
+		
+		document.getElementById('148').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-F1AD', compiledData3[68].slice(1), compiledData4[68].slice(1));
+		});
+		
+		document.getElementById('149').addEventListener('click', function() {
+		updateGraph2('Model HIO-360-G1A', compiledData3[69].slice(1), compiledData4[69].slice(1));
+		});
+		
+		document.getElementById('150').addEventListener('click', function() {
+		updateGraph2('Model HO-360-C1A', compiledData3[70].slice(1), compiledData4[70].slice(1));
+		});
+		
+		document.getElementById('151').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A1A', compiledData3[71].slice(1), compiledData4[71].slice(1));
+		});
+		
+		document.getElementById('152').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A1B', compiledData3[72].slice(1), compiledData4[72].slice(1));
+		});
+		
+		document.getElementById('153').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A1B6', compiledData3[73].slice(1), compiledData4[73].slice(1));
+		});
+		
+		document.getElementById('154').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A1B6D', compiledData3[74].slice(1), compiledData4[74].slice(1));
+		});
+		
+		document.getElementById('155').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A1D', compiledData3[75].slice(1), compiledData4[75].slice(1));
+		});
+		
+		document.getElementById('156').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A1D6', compiledData3[76].slice(1), compiledData4[76].slice(1));
+		});
+		
+		document.getElementById('157').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A2B', compiledData3[77].slice(1), compiledData4[77].slice(1));
+		});
+		
+		document.getElementById('158').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A3B6', compiledData3[78].slice(1), compiledData4[78].slice(1));
+		});
+		
+		document.getElementById('159').addEventListener('click', function() {
+		updateGraph2('Model IO-360-A3B6D', compiledData3[79].slice(1), compiledData4[79].slice(1));
+		});
+		
+		document.getElementById('160').addEventListener('click', function() {
+		updateGraph2('Model IO-360-B1B', compiledData3[80].slice(1), compiledData4[80].slice(1));
+		});
+		
+		document.getElementById('161').addEventListener('click', function() {
+		updateGraph2('Model IO-360-B1E', compiledData3[81].slice(1), compiledData4[81].slice(1));
+		});
+		
+		document.getElementById('162').addEventListener('click', function() {
+		updateGraph2('Model IO-360-B1F', compiledData3[82].slice(1), compiledData4[82].slice(1));
+		});
+		
+		document.getElementById('163').addEventListener('click', function() {
+		updateGraph2('Model IO-360-B1F6', compiledData3[83].slice(1), compiledData4[83].slice(1));
+		});
+		
+		document.getElementById('164').addEventListener('click', function() {
+		updateGraph2('Model IO-360-B1G6', compiledData3[84].slice(1), compiledData4[84].slice(1));
+		});
+		
+		document.getElementById('165').addEventListener('click', function() {
+		updateGraph2('Model IO-360-C1C', compiledData3[85].slice(1), compiledData4[85].slice(1));
+		});
+		
+		document.getElementById('166').addEventListener('click', function() {
+		updateGraph2('Model IO-360-C1C6', compiledData3[86].slice(1), compiledData4[86].slice(1));
+		});
+		
+		document.getElementById('167').addEventListener('click', function() {
+		updateGraph2('Model IO-360-C1D6', compiledData3[87].slice(1), compiledData4[87].slice(1));
+		});
+		
+		document.getElementById('168').addEventListener('click', function() {
+		updateGraph2('Model IO-360-C1E6', compiledData3[88].slice(1), compiledData4[88].slice(1));
+		});
+		
+		document.getElementById('169').addEventListener('click', function() {
+		updateGraph2('Model IO-360-C1F', compiledData3[89].slice(1), compiledData4[89].slice(1));
+		});
+		
+		document.getElementById('170').addEventListener('click', function() {
+		updateGraph2('Model IO-360-C1G6', compiledData3[90].slice(1), compiledData4[90].slice(1));
+		});
+		
+		document.getElementById('171').addEventListener('click', function() {
+		updateGraph2('Model IO-360-L2A', compiledData3[91].slice(1), compiledData4[91].slice(1));
+		});
+		
+		document.getElementById('172').addEventListener('click', function() {
+		updateGraph2('Model IO-360-M1A', compiledData3[92].slice(1), compiledData4[92].slice(1));
+		});
+		
+		document.getElementById('173').addEventListener('click', function() {
+		updateGraph2('Model IO-360-M1B', compiledData3[93].slice(1), compiledData4[93].slice(1));
+		});
+		
+		document.getElementById('174').addEventListener('click', function() {
+		updateGraph2('Model LIO-360-C1E6', compiledData3[94].slice(1), compiledData4[94].slice(1));
+		});
+		
+		document.getElementById('175').addEventListener('click', function() {
+		updateGraph2('Model LIO-360-M1A', compiledData3[95].slice(1), compiledData4[95].slice(1));
+		});
+		
+		document.getElementById('176').addEventListener('click', function() {
+		updateGraph2('Model LO-360-A1G6D', compiledData3[96].slice(1), compiledData4[96].slice(1));
+		});
+		
+		document.getElementById('177').addEventListener('click', function() {
+		updateGraph2('Model LO-360-A1H6', compiledData3[97].slice(1), compiledData4[97].slice(1));
+		});
+		
+		document.getElementById('178').addEventListener('click', function() {
+		updateGraph2('Model LO-360-E1A6D', compiledData3[98].slice(1), compiledData4[98].slice(1));
+		});
+		
+		document.getElementById('179').addEventListener('click', function() {
+		updateGraph2('Model LTO-360-E1A6D', compiledData3[99].slice(1), compiledData4[99].slice(1));
+		});
+		
+		document.getElementById('180').addEventListener('click', function() {
+		updateGraph2('Model O-360-A1A', compiledData3[100].slice(1), compiledData4[100].slice(1));
+		});
+		
+		document.getElementById('181').addEventListener('click', function() {
+		updateGraph2('Model O-360-A1AD', compiledData3[101].slice(1), compiledData4[101].slice(1));
+		});
+		
+		document.getElementById('182').addEventListener('click', function() {
+		updateGraph2('Model O-360-A1D', compiledData3[102].slice(1), compiledData4[102].slice(1));
+		});
+		
+		document.getElementById('183').addEventListener('click', function() {
+		updateGraph2('Model O-360-A1F6D', compiledData3[103].slice(1), compiledData4[103].slice(1));
+		});
+		
+		document.getElementById('184').addEventListener('click', function() {
+		updateGraph2('Model O-360-A1G6D', compiledData3[104].slice(1), compiledData4[104].slice(1));
+		});
+		
+		document.getElementById('185').addEventListener('click', function() {
+		updateGraph2('Model O-360-A1H6', compiledData3[105].slice(1), compiledData4[105].slice(1));
+		});
+		
+		document.getElementById('186').addEventListener('click', function() {
+		updateGraph2('Model O-360-A1P', compiledData3[106].slice(1), compiledData4[106].slice(1));
+		});
+		
+		document.getElementById('187').addEventListener('click', function() {
+		updateGraph2('Model O-360-A2A', compiledData3[107].slice(1), compiledData4[107].slice(1));
+		});
+		
+		document.getElementById('188').addEventListener('click', function() {
+		updateGraph2('Model O-360-A2F', compiledData3[108].slice(1), compiledData4[108].slice(1));
+		});
+		
+		document.getElementById('189').addEventListener('click', function() {
+		updateGraph2('Model O-360-A2G', compiledData3[109].slice(1), compiledData4[109].slice(1));
+		});
+		
+		document.getElementById('190').addEventListener('click', function() {
+		updateGraph2('Model O-360-A3A', compiledData3[110].slice(1), compiledData4[110].slice(1));
+		});
+		
+		document.getElementById('191').addEventListener('click', function() {
+		updateGraph2('Model O-360-A3AD', compiledData3[111].slice(1), compiledData4[111].slice(1));
+		});
+		
+		document.getElementById('192').addEventListener('click', function() {
+		updateGraph2('Model O-360-A4A', compiledData3[112].slice(1), compiledData4[112].slice(1));
+		});
+		
+		document.getElementById('193').addEventListener('click', function() {
+		updateGraph2('Model O-360-A4G', compiledData3[113].slice(1), compiledData4[113].slice(1));
+		});
+		
+		document.getElementById('194').addEventListener('click', function() {
+		updateGraph2('Model O-360-A4J', compiledData3[114].slice(1), compiledData4[114].slice(1));
+		});
+		
+		document.getElementById('195').addEventListener('click', function() {
+		updateGraph2('Model O-360-A4K', compiledData3[115].slice(1), compiledData4[115].slice(1));
+		});
+		
+		document.getElementById('196').addEventListener('click', function() {
+		updateGraph2('Model O-360-A4M', compiledData3[116].slice(1), compiledData4[116].slice(1));
+		});
+		
+		document.getElementById('197').addEventListener('click', function() {
+		updateGraph2('Model O-360-A4N', compiledData3[117].slice(1), compiledData4[117].slice(1));
+		});
+		
+		document.getElementById('198').addEventListener('click', function() {
+		updateGraph2('Model O-360-A4P', compiledData3[118].slice(1), compiledData4[118].slice(1));
+		});
+		
+		document.getElementById('199').addEventListener('click', function() {
+		updateGraph2('Model O-360-A5AD', compiledData3[119].slice(1), compiledData4[119].slice(1));
+		});
+		
+		document.getElementById('200').addEventListener('click', function() {
+		updateGraph2('Model O-360-C1E', compiledData3[120].slice(1), compiledData4[120].slice(1));
+		});
+		
+		document.getElementById('201').addEventListener('click', function() {
+		updateGraph2('Model O-360-C1F', compiledData3[121].slice(1), compiledData4[121].slice(1));
+		});
+		
+		document.getElementById('202').addEventListener('click', function() {
+		updateGraph2('Model O-360-C1G', compiledData3[122].slice(1), compiledData4[122].slice(1));
+		});
+		
+		document.getElementById('203').addEventListener('click', function() {
+		updateGraph2('Model O-360-C2A', compiledData3[123].slice(1), compiledData4[123].slice(1));
+		});
+		
+		document.getElementById('204').addEventListener('click', function() {
+		updateGraph2('Model O-360-C2E', compiledData3[124].slice(1), compiledData4[124].slice(1));
+		});
+		
+		document.getElementById('205').addEventListener('click', function() {
+		updateGraph2('Model O-360-C4F', compiledData3[125].slice(1), compiledData4[125].slice(1));
+		});
+		
+		document.getElementById('206').addEventListener('click', function() {
+		updateGraph2('Model O-360-C4P', compiledData3[126].slice(1), compiledData4[126].slice(1));
+		});
+		
+		document.getElementById('207').addEventListener('click', function() {
+		updateGraph2('Model O-360-E1A6D', compiledData3[127].slice(1), compiledData4[127].slice(1));
+		});
+		
+		document.getElementById('208').addEventListener('click', function() {
+		updateGraph2('Model O-360-F1A6', compiledData3[128].slice(1), compiledData4[128].slice(1));
+		});
+		
+		document.getElementById('209').addEventListener('click', function() {
+		updateGraph2('Model O-360-J2A', compiledData3[129].slice(1), compiledData4[129].slice(1));
+		});
+		
+		document.getElementById('210').addEventListener('click', function() {
+		updateGraph2('Model TIO-360-C1A6D', compiledData3[130].slice(1), compiledData4[130].slice(1));
+		});
+		
+		document.getElementById('211').addEventListener('click', function() {
+		updateGraph2('Model TO-360-C1A6D', compiledData3[131].slice(1), compiledData4[131].slice(1));
+		});
+		
+		document.getElementById('212').addEventListener('click', function() {
+		updateGraph2('Model TO-360-E1A6D', compiledData3[132].slice(1), compiledData4[132].slice(1));
+		});
+		
+		document.getElementById('213').addEventListener('click', function() {
+		updateGraph2('Model AEIO-390-A1B6', compiledData3[133].slice(1), compiledData4[133].slice(1));
+		});
+		
+		document.getElementById('214').addEventListener('click', function() {
+		updateGraph2('Model IO-390-A1A6', compiledData3[134].slice(1), compiledData4[134].slice(1));
+		});
+		
+		document.getElementById('215').addEventListener('click', function() {
+		updateGraph2('Model IO-390-A3A6', compiledData3[135].slice(1), compiledData4[135].slice(1));
+		});
+		
+		document.getElementById('216').addEventListener('click', function() {
+		updateGraph2('Model IO-390-A1B6', compiledData3[136].slice(1), compiledData4[136].slice(1));
+		});
+		
+		document.getElementById('217').addEventListener('click', function() {
+		updateGraph2('Model AEIO-540-D4A5', compiledData3[137].slice(1), compiledData4[137].slice(1));
+		});
+		
+		document.getElementById('218').addEventListener('click', function() {
+		updateGraph2('Model AEIO-540-D4B5', compiledData3[138].slice(1), compiledData4[138].slice(1));
+		});
+		
+		document.getElementById('219').addEventListener('click', function() {
+		updateGraph2('Model AEIO-540-D4D5', compiledData3[139].slice(1), compiledData4[139].slice(1));
+		});
+		
+		document.getElementById('220').addEventListener('click', function() {
+		updateGraph2('Model AEIO-540-L1B5', compiledData3[140].slice(1), compiledData4[140].slice(1));
+		});
+		
+		document.getElementById('221').addEventListener('click', function() {
+		updateGraph2('Model AEIO-540-L1B5D', compiledData3[141].slice(1), compiledData4[141].slice(1));
+		});
+		
+		document.getElementById('222').addEventListener('click', function() {
+		updateGraph2('Model AEIO-540-L1D5', compiledData3[142].slice(1), compiledData4[142].slice(1));
+		});
+		
+		document.getElementById('223').addEventListener('click', function() {
+		updateGraph2('Model IO-540-AA1A5', compiledData3[143].slice(1), compiledData4[143].slice(1));
+		});
+		
+		document.getElementById('224').addEventListener('click', function() {
+		updateGraph2('Model IO-540-AA1B5', compiledData3[144].slice(1), compiledData4[144].slice(1));
+		});
+		
+		document.getElementById('225').addEventListener('click', function() {
+		updateGraph2('Model IO-540-AB1A5', compiledData3[145].slice(1), compiledData4[145].slice(1));
+		});
+		
+		document.getElementById('226').addEventListener('click', function() {
+		updateGraph2('Model IO-540-AC1A5', compiledData3[146].slice(1), compiledData4[146].slice(1));
+		});
+		
+		document.getElementById('227').addEventListener('click', function() {
+		updateGraph2('Model IO-540-AE1A5', compiledData3[147].slice(1), compiledData4[147].slice(1));
+		});
+		
+		document.getElementById('228').addEventListener('click', function() {
+		updateGraph2('Model IO-540-C1B5', compiledData3[148].slice(1), compiledData4[148].slice(1));
+		});
+		
+		document.getElementById('229').addEventListener('click', function() {
+		updateGraph2('Model IO-540-C4B5', compiledData3[149].slice(1), compiledData4[149].slice(1));
+		});
+		
+		document.getElementById('230').addEventListener('click', function() {
+		updateGraph2('Model IO-540-C4D5', compiledData3[150].slice(1), compiledData4[150].slice(1));
+		});
+		
+		document.getElementById('231').addEventListener('click', function() {
+		updateGraph2('Model IO-540-C4D5D', compiledData3[151].slice(1), compiledData4[151].slice(1));
+		});
+		
+		document.getElementById('232').addEventListener('click', function() {
+		updateGraph2('Model IO-540-D4A5', compiledData3[152].slice(1), compiledData4[152].slice(1));
+		});
+		
+		document.getElementById('233').addEventListener('click', function() {
+		updateGraph2('Model IO-540-D4B5', compiledData3[153].slice(1), compiledData4[153].slice(1));
+		});
+		
+		document.getElementById('234').addEventListener('click', function() {
+		updateGraph2('Model IO-540-AF1A5', compiledData3[154].slice(1), compiledData4[154].slice(1));
+		});
+		
+		document.getElementById('235').addEventListener('click', function() {
+		updateGraph2('Model IO-540-G1D5', compiledData3[155].slice(1), compiledData4[155].slice(1));
+		});
+		
+		document.getElementById('236').addEventListener('click', function() {
+		updateGraph2('Model IO-540-J4A5', compiledData3[156].slice(1), compiledData4[156].slice(1));
+		});
+		
+		document.getElementById('237').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1A5', compiledData3[157].slice(1), compiledData4[157].slice(1));
+		});
+		
+		document.getElementById('238').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1A5D', compiledData3[158].slice(1), compiledData4[158].slice(1));
+		});
+		
+		document.getElementById('239').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1B5', compiledData3[159].slice(1), compiledData4[159].slice(1));
+		});
+		
+		document.getElementById('240').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1D5', compiledData3[160].slice(1), compiledData4[160].slice(1));
+		});
+		
+		document.getElementById('241').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1E5', compiledData3[161].slice(1), compiledData4[161].slice(1));
+		});
+		
+		document.getElementById('242').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1F5', compiledData3[162].slice(1), compiledData4[162].slice(1));
+		});
+		
+		document.getElementById('243').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1G5', compiledData3[163].slice(1), compiledData4[163].slice(1));
+		});
+		
+		document.getElementById('244').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1G5D', compiledData3[164].slice(1), compiledData4[164].slice(1));
+		});
+		
+		document.getElementById('245').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1J5', compiledData3[165].slice(1), compiledData4[165].slice(1));
+		});
+		
+		document.getElementById('246').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1J5D', compiledData3[166].slice(1), compiledData4[166].slice(1));
+		});
+		
+		document.getElementById('247').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K1K5', compiledData3[167].slice(1), compiledData4[167].slice(1));
+		});
+		
+		document.getElementById('248').addEventListener('click', function() {
+		updateGraph2('Model IO-540-K2A5', compiledData3[168].slice(1), compiledData4[168].slice(1));
+		});
+		
+		document.getElementById('249').addEventListener('click', function() {
+		updateGraph2('Model IO-540-L1B5D', compiledData3[169].slice(1), compiledData4[169].slice(1));
+		});
+		
+		document.getElementById('250').addEventListener('click', function() {
+		updateGraph2('Model IO-540-L1C5', compiledData3[170].slice(1), compiledData4[170].slice(1));
+		});
+		
+		document.getElementById('251').addEventListener('click', function() {
+		updateGraph2('Model IO-540-M1A5', compiledData3[171].slice(1), compiledData4[171].slice(1));
+		});
+		
+		document.getElementById('252').addEventListener('click', function() {
+		updateGraph2('Model IO-540-M1B5D', compiledData3[172].slice(1), compiledData4[172].slice(1));
+		});
+		
+		document.getElementById('253').addEventListener('click', function() {
+		updateGraph2('Model IO-540-M1C5', compiledData3[173].slice(1), compiledData4[173].slice(1));
+		});
+		
+		document.getElementById('254').addEventListener('click', function() {
+		updateGraph2('Model IO-540-N1A5', compiledData3[174].slice(1), compiledData4[174].slice(1));
+		});
+		
+		document.getElementById('255').addEventListener('click', function() {
+		updateGraph2('Model IO-540-R1A5', compiledData3[175].slice(1), compiledData4[175].slice(1));
+		});
+		
+		document.getElementById('256').addEventListener('click', function() {
+		updateGraph2('Model IO-540-S1A5', compiledData3[176].slice(1), compiledData4[176].slice(1));
+		});
+		
+		document.getElementById('257').addEventListener('click', function() {
+		updateGraph2('Model IO-540-T4A5D', compiledData3[177].slice(1), compiledData4[177].slice(1));
+		});
+		
+		document.getElementById('258').addEventListener('click', function() {
+		updateGraph2('Model IO-540-T4B5', compiledData3[178].slice(1), compiledData4[178].slice(1));
+		});
+		
+		document.getElementById('259').addEventListener('click', function() {
+		updateGraph2('Model IO-540-T4B5D', compiledData3[179].slice(1), compiledData4[179].slice(1));
+		});
+		
+		document.getElementById('260').addEventListener('click', function() {
+		updateGraph2('Model IO-540-V4A5', compiledData3[180].slice(1), compiledData4[180].slice(1));
+		});
+		
+		document.getElementById('261').addEventListener('click', function() {
+		updateGraph2('Model IO-540-W1A5', compiledData3[181].slice(1), compiledData4[181].slice(1));
+		});
+		
+		document.getElementById('262').addEventListener('click', function() {
+		updateGraph2('Model IO-540-W1A5D', compiledData3[182].slice(1), compiledData4[182].slice(1));
+		});
+		
+		document.getElementById('263').addEventListener('click', function() {
+		updateGraph2('Model LTIO-540-F2BD', compiledData3[183].slice(1), compiledData4[183].slice(1));
+		});
+		
+		document.getElementById('264').addEventListener('click', function() {
+		updateGraph2('Model LTIO-540-J2B', compiledData3[184].slice(1), compiledData4[184].slice(1));
+		});
+		
+		document.getElementById('265').addEventListener('click', function() {
+		updateGraph2('Model LTIO-540-J2BD', compiledData3[185].slice(1), compiledData4[185].slice(1));
+		});
+		
+		document.getElementById('266').addEventListener('click', function() {
+		updateGraph2('Model LTIO-540-U2A', compiledData3[186].slice(1), compiledData4[186].slice(1));
+		});
+		
+		document.getElementById('267').addEventListener('click', function() {
+		updateGraph2('Model O-540-A1A5', compiledData3[187].slice(1), compiledData4[187].slice(1));
+		});
+		
+		document.getElementById('268').addEventListener('click', function() {
+		updateGraph2('Model O-540-A1B5', compiledData3[188].slice(1), compiledData4[188].slice(1));
+		});
+		
+		document.getElementById('269').addEventListener('click', function() {
+		updateGraph2('Model O-540-A4B5', compiledData3[189].slice(1), compiledData4[189].slice(1));
+		});
+		
+		document.getElementById('270').addEventListener('click', function() {
+		updateGraph2('Model O-540-A1C5', compiledData3[190].slice(1), compiledData4[190].slice(1));
+		});
+		
+		document.getElementById('271').addEventListener('click', function() {
+		updateGraph2('Model O-540-A1D5', compiledData3[191].slice(1), compiledData4[191].slice(1));
+		});
+		
+		document.getElementById('272').addEventListener('click', function() {
+		updateGraph2('Model O-540-A4D5', compiledData3[192].slice(1), compiledData4[192].slice(1));
+		});
+		
+		document.getElementById('273').addEventListener('click', function() {
+		updateGraph2('Model O-540-A4E5', compiledData3[193].slice(1), compiledData4[193].slice(1));
+		});
+		
+		document.getElementById('274').addEventListener('click', function() {
+		updateGraph2('Model O-540-B1A5', compiledData3[194].slice(1), compiledData4[194].slice(1));
+		});
+		
+		document.getElementById('275').addEventListener('click', function() {
+		updateGraph2('Model O-540-B2B5', compiledData3[195].slice(1), compiledData4[195].slice(1));
+		});
+		
+		document.getElementById('276').addEventListener('click', function() {
+		updateGraph2('Model O-540-B2C5', compiledData3[196].slice(1), compiledData4[196].slice(1));
+		});
+		
+		document.getElementById('277').addEventListener('click', function() {
+		updateGraph2('Model O-540-B4B5', compiledData3[197].slice(1), compiledData4[197].slice(1));
+		});
+		
+		document.getElementById('278').addEventListener('click', function() {
+		updateGraph2('Model O-540-E4A5', compiledData3[198].slice(1), compiledData4[198].slice(1));
+		});
+		
+		document.getElementById('279').addEventListener('click', function() {
+		updateGraph2('Model O-540-E4B5', compiledData3[199].slice(1), compiledData4[199].slice(1));
+		});
+		
+		document.getElementById('280').addEventListener('click', function() {
+		updateGraph2('Model O-540-E4C5', compiledData3[200].slice(1), compiledData4[200].slice(1));
+		});
+		
+		document.getElementById('281').addEventListener('click', function() {
+		updateGraph2('Model O-540-F1B5', compiledData3[201].slice(1), compiledData4[201].slice(1));
+		});
+		
+		document.getElementById('282').addEventListener('click', function() {
+		updateGraph2('Model O-540-G1A5', compiledData3[202].slice(1), compiledData4[202].slice(1));
+		});
+		
+		document.getElementById('283').addEventListener('click', function() {
+		updateGraph2('Model O-540-H2A5', compiledData3[203].slice(1), compiledData4[203].slice(1));
+		});
+		
+		document.getElementById('284').addEventListener('click', function() {
+		updateGraph2('Model O-540-J1A5D', compiledData3[204].slice(1), compiledData4[204].slice(1));
+		});
+		
+		document.getElementById('285').addEventListener('click', function() {
+		updateGraph2('Model O-540-J3A5D', compiledData3[205].slice(1), compiledData4[205].slice(1));
+		});
+		
+		document.getElementById('286').addEventListener('click', function() {
+		updateGraph2('Model O-540-L3C5D', compiledData3[206].slice(1), compiledData4[206].slice(1));
+		});
+		
+		document.getElementById('287').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-A2B', compiledData3[207].slice(1), compiledData4[207].slice(1));
+		});
+		
+		document.getElementById('288').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-A2C', compiledData3[208].slice(1), compiledData4[208].slice(1));
+		});
+		
+		document.getElementById('289').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AA1AD', compiledData3[209].slice(1), compiledData4[209].slice(1));
+		});
+		
+		document.getElementById('290').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AB1AD', compiledData3[210].slice(1), compiledData4[210].slice(1));
+		});
+		
+		document.getElementById('291').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AB1BD', compiledData3[211].slice(1), compiledData4[211].slice(1));
+		});
+		
+		document.getElementById('292').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AE2A', compiledData3[212].slice(1), compiledData4[212].slice(1));
+		});
+		
+		document.getElementById('293').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AF1B', compiledData3[213].slice(1), compiledData4[213].slice(1));
+		});
+		
+		document.getElementById('294').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AG1A', compiledData3[214].slice(1), compiledData4[214].slice(1));
+		});
+		
+		document.getElementById('295').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AH1A', compiledData3[215].slice(1), compiledData4[215].slice(1));
+		});
+		
+		document.getElementById('296').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AJ1A', compiledData3[216].slice(1), compiledData4[216].slice(1));
+		});
+		
+		document.getElementById('297').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-AK1A', compiledData3[217].slice(1), compiledData4[217].slice(1));
+		});
+		
+		document.getElementById('298').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-C1A', compiledData3[218].slice(1), compiledData4[218].slice(1));
+		});
+		
+		document.getElementById('299').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-F2BD', compiledData3[219].slice(1), compiledData4[219].slice(1));
+		});
+		
+		document.getElementById('300').addEventListener('click', function() {
+		updateGraph2('Model TIO-540-J2BD', compiledData3[220].slice(1), compiledData4[220].slice(1));
+		});
+		
+		document.getElementById('301').addEventListener('click', function() {
+		updateGraph2('Model AEIO-580-B1A', compiledData3[221].slice(1), compiledData4[221].slice(1));
+		});
+		
+		document.getElementById('302').addEventListener('click', function() {
+		updateGraph2('Model IO-720-A1B', compiledData3[222].slice(1), compiledData4[222].slice(1));
+		});
+		
+		document.getElementById('303').addEventListener('click', function() {
+		updateGraph2('Model IO-720-B1B', compiledData3[223].slice(1), compiledData4[223].slice(1));
+		});
+		
+		document.getElementById('304').addEventListener('click', function() {
+		updateGraph2('Model IO-720-D1B', compiledData3[224].slice(1), compiledData4[224].slice(1));
+		});
+		
+		document.getElementById('305').addEventListener('click', function() {
+		updateGraph2('Model IO-720-D1C', compiledData3[225].slice(1), compiledData4[225].slice(1));
+		});        
+        
+        function updateGraph(modelType, data1, data2) {
+        	barChartData.datasets.splice(0, 1);
+        	barChartData2.datasets.splice(0, 1);
+            window.myBar.update();
+            window.myBar2.update();
+            current++;
+            //var colorName = colorNames[current % colorNames.length];;
+            //var dsColor = window.chartColors[colorName];
+            var newDataset = {
+                label: modelType,
+                backgroundColor: [color(window.engineColors.rebuilt).alpha(0.8).rgbString(),
+					color(window.engineColors.aviator).alpha(0.5).rgbString(),
+					color(window.engineColors.blackv).alpha(0.5).rgbString(),
+					color(window.engineColors.limited).alpha(0.5).rgbString(),
+					window.engineColors.xrblack,
+					color(window.engineColors.bigbore).alpha(0.5).rgbString()
+				],
+                borderColor: [color(window.engineColors.rebuilt).alpha(0.8).rgbString(),
+					color(window.engineColors.aviator).alpha(0.5).rgbString(),
+					color(window.engineColors.blackv).alpha(0.5).rgbString(),
+					color(window.engineColors.limited).alpha(0.5).rgbString(),
+					window.engineColors.xrblack,
+					color(window.engineColors.bigbore).alpha(0.5).rgbString()
+				],
+                borderWidth: 1,
+                data: data1
+            };
+            var backgroundColors = [];
+            var borderColors = [];
+            var i;
+            for (i = 0; i < data2.length; i++) {
+            	if (data2[i] < 0) {
+            		backgroundColors.push(color(window.overAndUnder.under).alpha(0.5).rgbString());
+            		borderColors.push(color(window.overAndUnder.under).alpha(0.5).rgbString());
+            	}
+            	else {
+            		backgroundColors.push(color(window.overAndUnder.over).alpha(0.5).rgbString());
+            		borderColors.push(color(window.overAndUnder.over).alpha(0.5).rgbString());
+            	}
+            }
+            var newDataset2 = {
+            	label: modelType,
+                backgroundColor: backgroundColors,
+                borderColor: borderColors,
+                borderWidth: 1,
+                data: data2
+            };
+            
+            barChartData.datasets.push(newDataset);
+            barChartData2.datasets.push(newDataset2);
+            window.myBar.update();
+            window.myBar2.update();
+    	}
+    	
+    	function updateGraph2(modelType, data1, data2) {
+        	barChartData3.datasets.splice(0, 1);
+        	barChartData4.datasets.splice(0, 1);
+            window.myBar3.update();
+            window.myBar4.update();
+            current2++;
+            //var colorName = colorNames[current2 % colorNames.length];;
+            //var dsColor = window.chartColors[colorName];
+            var newDataset3 = {
+                label: modelType,
+                backgroundColor: [color(window.engineColors.rebuilt).alpha(0.8).rgbString(),
+					color(window.engineColors.aviator).alpha(0.5).rgbString(),
+					color(window.engineColors.blackv).alpha(0.5).rgbString(),
+					color(window.engineColors.limited).alpha(0.5).rgbString(),
+					window.engineColors.xrblack,
+				],
+                borderColor: [color(window.engineColors.rebuilt).alpha(0.8).rgbString(),
+					color(window.engineColors.aviator).alpha(0.5).rgbString(),
+					color(window.engineColors.blackv).alpha(0.5).rgbString(),
+					color(window.engineColors.limited).alpha(0.5).rgbString(),
+					window.engineColors.xrblack,
+				],
+                borderWidth: 1,
+                data: data1
+            };
+            var backgroundColors = [];
+            var borderColors = [];
+            var i;
+            for (i = 0; i < data2.length; i++) {
+            	if (data2[i] < 0) {
+            		backgroundColors.push(color(window.overAndUnder.under).alpha(0.5).rgbString());
+            		borderColors.push(color(window.overAndUnder.under).alpha(0.5).rgbString());
+            	}
+            	else {
+            		backgroundColors.push(color(window.overAndUnder.over).alpha(0.5).rgbString());
+            		borderColors.push(color(window.overAndUnder.over).alpha(0.5).rgbString());
+            	}
+            }
+            var newDataset4 = {
+            	label: modelType,
+                backgroundColor: backgroundColors,
+                borderColor: borderColors,
+                borderWidth: 1,
+                data: data2
+            };
+            
+            barChartData3.datasets.push(newDataset3);
+            barChartData4.datasets.push(newDataset4);
+            window.myBar3.update();
+            window.myBar4.update();
+    	}
+    	
+    	function clickDrop() {
+    		document.getElementById("myDropdown").classList.toggle("show");
+		}
+		
+		function clickDrop2() {
+    		document.getElementById("myDropdown2").classList.toggle("show");
+		}
+		
+		window.onclick = function(event) {
+  			if (!event.target.matches('.dropbtn')) {
+
+    			var dropdowns = document.getElementsByClassName("dropdown-content");
+    			var i;
+    			for (i = 0; i < dropdowns.length; i++) {
+      				var openDropdown = dropdowns[i];
+      				if (openDropdown.classList.contains('show')) {
+        				openDropdown.classList.remove('show');
+      				}				
+    			}
+  			}
+		}
+		
+		/*function filterFunction() {
+			var input, filter, ul, li, a, i;
+			input = document.getElementById("myInput");
+			filter = input.value.toUpperCase();
+			div = document.getElementById("myDropdown");
+			a = div.getElementsByTagName("a");
+			for (i = 0; i < a.length; i++) {
+				if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+					a[i].style.display = "";
+				} else {
+					a[i].style.display = "none";
+				}
+			}
+		}*/
+	</script>
+  
+</body>
+</html>
+<link href="style.css" type="text/css" rel="stylesheet">
